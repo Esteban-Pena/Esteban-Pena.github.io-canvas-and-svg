@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bape Milo</title>
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        #myCanvas{
+            background-color: #692A00;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="1000" height="1000" style="border: 1px solid black;"></canvas>
+</body>
+<script>
+
+
+
+//main circle 
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "black";
+    context.arc(500,500,240,0,2*3.14);
+    context.fillstyle = "#FCB203";
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.strokeStyle =  "#FCB203";
+    context.lineWidth = 145;
+    context.moveTo(650, 470);
+    context.lineTo(350, 470);
+    context.stroke();
+
+//Color of mouth 2
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 155;
+    context.strokeStyle = "#FCB203";
+    context.arc(500,615,55,0,2*3.14);
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 30;
+    context.strokeStyle = "#FCB203";
+    context.arc(500,615,15,0,2*3.14);
+    context.stroke();
+
+    //\Cirlce of Mouth
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "black";
+    context.arc(500,615,125,0,2*3.14)
+    context.stroke();
+
+     //color of face
+
+     context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "#FCB203";
+    context.arc(405,480,80,.59*3.14,1.5*3.14)
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 20;
+    context.strokeStyle = "#FCB203";
+    context.arc(420,480,80,.65*3.14,1.5*3.14)
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle =  "#FCB203";
+    context.arc(595,480,80,.41*3.14,1.5*3.14,true)
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 20;
+    context.strokeStyle =  "#FCB203";
+    context.arc(580,480,80,.35*3.14,1.5*3.14,true)
+    context.stroke();
+
+    //Face
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "black";
+    context.arc(400,480,90,.55*3.14,1.5*3.14)
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "black";
+    context.arc(600,480,90,.45*3.14,1.5*3.14,true)
+    context.stroke();
+
+
+    //lines for connecting half circles
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.moveTo(600, 390);
+    context.lineTo(390, 390);
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.moveTo(620, 640);
+    context.lineTo(380, 640);
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.moveTo(535, 550);
+    context.lineTo(460, 550);
+    context.stroke();
+
+    //Eyes
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 10;
+    context.strokeStyle = "black";
+    context.arc(400,460,35,0,2*3.14)
+    context.stroke();
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 10;
+    context.strokeStyle = "black";
+    context.arc(600,460,35,0,2*3.14)
+    context.stroke();
+
+    //color of eyes
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 30;
+    context.strokeStyle = "black";
+    context.arc(400,460,15,0,2*3.14)
+    context.stroke();
+
+
+
+    context.beginPath();
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    context.lineWidth = 30;
+    context.strokeStyle = "black";
+    context.arc(600,460,15,0,2*3.14)
+    context.stroke();
+
+</script>
+
+<svg width="1000" height="1000">
+    <rect x="500" y="400" width="300" height="380" style="fill:#DBDBDB;stroke-width:10;stroke:rgb(0,0,0)" />
+    <!--Eyes-->
+    <circle cx="575" cy="490" r="35" stroke="black" stroke-width="3" fill="#DBDBDB"/>
+    <circle cx="710" cy="480" r="40" stroke="black" stroke-width="3" fill="#DBDBDB"/>
+    <circle cx="700" cy="470" r="15" stroke="black" stroke-width="5" fill="#DBDBDB"/>
+    <circle cx="590" cy="500" r="10" stroke="black" stroke-width="5" fill="#DBDBDB"/>
+    <polyline points="548,470 535,455" style="fill:none;stroke:black;stroke-width:3"/>
+    <polyline points="560,460 555,440" style="fill:none;stroke:black;stroke-width:3"/>
+    <polyline points="580,455 575,440" style="fill:none;stroke:black;stroke-width:3"/>
+    <polyline points="700,440 700,420" style="fill:none;stroke:black;stroke-width:3"/>
+    <polyline points="720,440 725,420" style="fill:none;stroke:black;stroke-width:3"/>
+    <polyline points="730,445 740,425" style="fill:none;stroke:black;stroke-width:3"/>
+    <!--Nose-->
+    <circle cx="650" cy="540" r="20" stroke="black" stroke-width="3" fill="#DBDBDB"/>
+    <!--Mouth-->
+    <ellipse cx="650" cy="620" rx="100" ry="50" style="fill:black;stroke:black;stroke-width:2" />
+    <polygon points="650,620 650,620 620,620" style="fill:#DBDBDB;stroke:none;stroke-width:1" />
+    <polygon points="660,575 690,580 690,600 660,600 " style="fill:#DBDBDB;stroke:none;stroke-width:1" />
+    <!--Line Under Mouth-->
+    <line x1="500" y1="680" x2="800" y2="680" style="stroke:black;stroke-width:10" />
+    <!--Tie-->
+    <polyline points="610,680 645,710 680,680" style="fill:none;stroke:black;stroke-width:3" />
+    <polyline points="631,700 610,730 645,760 680,730 660,700" style="fill:none;stroke:black;stroke-width:3" />
+    <!--Legs-->
+    <polyline points= "580,780 580,850 540,850" style="fill:none;stroke:black;stroke-width:10" />
+    <polyline points= "720,780 720,850 680,850" style="fill:none;stroke:black;stroke-width:10" />
+    <!--Arms-->
+    <polyline points= "500,620 380,500 450,330" style="fill:none;stroke:black;stroke-width:10" />
+    <polyline points= "800,620 900,500 900,330" style="fill:none;stroke:black;stroke-width:10" />
+    <polygon points="595,585 630,579 630,600 595,600" style="fill:#DBDBDB;stroke:#DBDBDB;stroke-width:3" />
+    <!--Pencil-->
+    <polygon points="400,330 940,330 940,280 400,280 " style="fill:yellow;stroke:black;stroke-width:10" />
+    <polygon points="940,330  940,280 980,280 980,330 " style="fill:pink;stroke:black;stroke-width:10" />
+    <polygon points="400,330 400,280 350,305" style="fill:blanchedalmond;stroke:black;stroke-width:10" />
+    <!--Holes-->
+    <circle cx="650" cy="430" r="3" stroke="none" stroke-width="1" fill="#4A8266"/>
+    <circle cx="635" cy="450" r="5" stroke="none" stroke-width="1" fill="#4A8266"/>
+    <circle cx="540" cy="650" r="5" stroke="none" stroke-width="1" fill="#4A8266"/>
+    <circle cx="750" cy="660" r="3" stroke="none" stroke-width="1" fill="#4A8266"/>
+    <circle cx="770" cy="650" r="5" stroke="none" stroke-width="1" fill="#4A8266"/>
+    <circle cx="755" cy="700" r="5" stroke="none" stroke-width="1" fill="#4A8266"/>
+    <circle cx="550" cy="700" r="3" stroke="none" stroke-width="1" fill="#4A8266"/>
+    <circle cx="560" cy="725" r="5" stroke="none" stroke-width="1" fill="#4A8266"/>
+  </svg>
+</html>
